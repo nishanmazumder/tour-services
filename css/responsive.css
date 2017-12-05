@@ -1,0 +1,401 @@
+/*
+ Theme Name:     Counchecval
+ Theme URI:      www.www.com
+ Description:    Taxi or car services
+ Author:         Nishan Mazumder
+ Author URI:     https://github.com/nishanmazumder
+ Author Note	: Idon't know who is the previous developer. Really i was mad to handle his code. My work was create responsive. When i see that orginal file, it was really unprofessional. Then i organize all code. and crete some additional file. I don't know how much problem in there, But it looks good now.
+*/
+
+/*Home page*/
+
+.container{
+	padding: 0px;
+	margin: 0px auto;
+}
+/* .main_banner{
+	width: 78%;
+    height: 38%;
+} */
+/* .banner_img{
+	width: 980px;
+	margin: 0px auto;
+	position: relative;
+	z-index: 50; 
+} */
+.banner_heli{
+	width: 330px;
+	position: fixed;
+    margin-left: -500px;
+    margin-top: -15px;
+}
+
+.banner_car{
+	width: 580px;
+    position: fixed;
+    margin-left: -140px;
+    margin-top: 35px;
+	
+}
+.banner_img_sec img{
+	z-index: 50 !important;
+}
+.navbar-brand {
+	padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+	margin-right: 5.7rem;
+}
+/* .navbar-brand img{
+	margin-left: 10px;
+} */
+nav{
+	display: block;
+	position:fixed;
+	margin: 0px auto;
+	padding: 0rem !important;
+}
+.navbar-nav{
+	margin-bottom: 0px;
+    margin-top: 0px;
+}
+.responsive_bar{
+	color: #F90;
+	font-size: 28px;
+}
+.navbar-nav li{
+	list-style-type: none;
+	margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px;
+    margin-top: 0px;
+	border-right: 1px solid #4d4945 !important;
+	
+}
+.navbar-nav li:last-child{
+	border: none;
+}
+.navbar-nav li a{
+	color: #F90;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-shadow: 0px 0px 8px #000000;
+	letter-spacing: -0.05em;
+	line-height: 50px;
+	position:relative;
+	display: block;
+	
+}
+.navbar-nav li a:hover {
+	color: #000;
+	background-color: #fff;
+	-webkit-transition: background-color 0.3s linear;
+	-moz-transition: background-color 0.3s linear;
+	-ms-transition: background-color 0.3s linear;
+	-o-transition: background-color 0.3s linear;
+	transition: background-color 0.3s linear;	
+}
+
+
+/* Presentation */
+.photo-droite{
+	width: 108%;
+}
+
+/* NOS TARIFS */
+.table-bordered td, .table-bordered th {
+    border: 1px solid #333 !important;
+}
+
+/* Contact Form */
+#contact-form input, #contact-form textarea{
+	width: 100%;
+}
+
+.submit_button_contact{
+	padding: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #C34209;
+    font-weight: bold;
+	display: block;
+	transition: .7s;
+}
+
+.submit_button_contact:hover{
+	background: #FF9900;
+    color: #333;
+}
+
+/*Devis*/
+
+.telephone_space{
+	margin-left: 10%;
+}
+
+.submit_button_devis{
+	padding: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: bold;
+	display: block;
+	transition: .7s;
+}
+
+.submit_button_devis:hover{
+	background: #FF9900;
+    color: #333;
+}
+
+/* =======================
+		Media Queries
+   =======================*/
+   
+@media only screen and (max-width:1030px){
+	.navbar-brand {
+		margin-right: 2rem;
+	}
+
+	.language_bar {
+		margin-left: 813px !important;
+	}
+	#main_content {
+		width: 85%;
+		/* margin: 25% auto 0 auto; */
+	}
+	/* #image-bandeau {
+		margin-left: -50%;
+	}
+	.main_banner {
+		width: 100%;
+	} */
+	.banner_heli{
+		width: 320px;
+	}
+	.banner_car{
+		width: 535px;
+	}
+	.slider-wrapper{
+		width: 100%;
+	}
+	#contenu .droite {
+		/* padding-bottom: 10px; */
+		margin-left: 6%;
+	}
+	#contenu .droite .int {
+		width: 100%;
+	}
+	#footer {
+		font-size: 1em;
+		width: 85%; 
+	}
+
+}
+
+/* @media only screen and (max-width:810px){} */
+
+@media only screen and (max-width:780px){
+	body{
+		overflow-x: hidden;
+	}
+	h3 {
+		font-size: 1.1em;
+	}
+	.navbar-brand {
+		margin-right: 410px;
+	}
+	.language_bar {
+		margin-left: 0px !important;
+		right: 25px;
+	}
+	#main_content {
+		width: 95%;
+		margin: 210px auto 0 auto;
+	}
+	.banner_heli{
+		width: 260px;
+		margin-left: -400px;
+		margin-top: 0px;
+	}
+	.banner_car{
+		width: 470px;
+	}
+	.slider-wrapper{
+		width: 100%;
+	}
+	#contenu .droite{
+		margin-left: 12%;
+	}
+	#contenu .droite .int {
+		padding: 1%;
+	}
+	#footer {
+		width: 95%; 
+	}
+
+}
+
+@media only screen and (max-width:650px){
+	h1 {
+		font-size: 2.2em;
+	}
+	h3 {
+		font-size: 1.3em;
+	}
+	p {
+		line-height: 1.4em;
+		font-size: 16px;
+	}
+	.navbar-brand {
+		margin-right: 13rem;
+	}
+	.language_bar {
+		margin-left: 0px !important;
+		right: 15px;
+	}
+	#main_content {
+		margin: 175px auto 0 auto;
+	}
+	.banner_heli{
+		width: 180px;
+		margin-left: -340px;
+	}
+	.banner_car{
+		width: 380px;
+	}
+
+	#accueil #diapo {
+		width: 100%;
+	}
+	#contenu .droite{
+		margin-left: 0%;
+		margin-top: 10%;
+	}
+	#accueil #contenu .droite .int{
+		width: 100%;
+	}
+	#footer .int {
+		padding-bottom: 20px;
+	}
+	.margin_left{
+		margin: 0px !important;
+		margin-top: 20px !important;
+	}
+	.sepera_tor{
+		margin-top: 25px !important;
+	}
+	
+	/*devis*/
+	.telephone_space{
+		margin-left: 0%;
+	}
+	/*contact*/
+	#contact #contact-form {
+		float: left;
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width:490px) {
+	h1 {
+		font-size: 1.8em;
+	}
+	.navbar-brand {
+		margin-right: 7rem;
+	}
+	.navbar-brand img {
+		width: 90%;
+	}
+	
+	#main_content {
+		margin: 135px auto 0 auto;
+	}
+	.banner_heli{
+		width: 165px;
+		margin-left: -260px;
+	}
+	.banner_car{
+		width: 270px;
+		margin-left: -70px;
+	}
+	#contenu .droite{
+		margin-top: -20px !important;
+	}
+	.margin_left{
+		margin-top: 20px !important;
+	}
+	.sepera_tor{
+		margin-top: 0px !important;
+	}
+	.margin_left_small{
+		margin: 0px !important;
+		margin-top: 20px !important;
+	}
+	
+	/*Tarifs*/
+	.table td, .table th {
+		padding: 1%;
+	}
+}
+
+
+@media screen and (max-width:330px) {
+	#main_content {
+		margin: 170px auto 0 auto;
+	}
+	.banner_heli{
+		width: 125px;
+		margin-left: -190px;
+		margin-top: 60px;
+	}
+	.banner_car{
+		width: 175px;
+		margin-left: -40px;
+		margin-top: 100px;
+	}
+	.language_bar {
+		margin-top: 22px;
+		right: 5px;
+	}
+	.navbar-nav {
+		margin-top: 40px;
+	}
+	.navbar-brand img {
+		margin: 5px;
+	}
+	.navbar-toggler{
+		position:absolute;
+		top: 90px;
+	}
+	.navbar-brand {
+		margin-right: 0rem;
+	}
+	/* #menu-langues ul {
+		right: 12px;
+		top: 90px;
+	} */
+	
+	#contenu .droite{
+		margin-top: -150px !important;
+	}
+	
+	/*contact*/
+	input, textarea, select {
+		width: 100%;
+	}
+
+	.submit_button_contact{
+		font-size: 12px;
+	}
+	
+	/*Tarifs*/
+	.table td, .table th {
+		padding: 1%;
+	}
+	td{
+		font-size: 10px !important;
+	}
+	
+}
+

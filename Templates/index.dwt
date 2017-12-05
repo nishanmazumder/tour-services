@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Steady Confection</title>
+<!-- TemplateEndEditable -->
+<link href='http://fonts.googleapis.com/css?family=Quicksand&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href="../css/general.css" rel="stylesheet" type="text/css" />
+<link href="../css/css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+<!--[if IE 6]>
+	<link rel="stylesheet" type="text/css" href="css/css-ie-6.css" />
+<![endif]-->
+<script type="text/javascript">
+$(document).ready(function(){ 
+
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 200) {
+				$('#bandeau').fadeOut();
+			} else {
+				$('#bandeau').fadeIn();
+			}
+			
+			if ($(this).scrollTop() > 60) {
+				$('#image-bandeau').stop(true, false);
+				$('#image-bandeau').animate({opacity: 0.5},400);
+			} else {
+				$('#image-bandeau').stop(true, false);
+				$('#image-bandeau').animate({opacity: 1},400);
+			}
+			
+		});
+	});
+
+});
+</script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="id" type="text" value="standard" -->
+</head>
+<body id="@@(id)@@">
+<div id="bandeau">
+  <div id="menu-princ"> <img src="../images/logo.png" width="250" height="80"  alt="" id="logo" />
+    <ul>
+      <li><a href="index.html" target="_self" class="btn1"><span>Accueil</span></a></li>
+      <li><a href="prestations.html" target="_self" class="btn2"><span>Nos prestations</span></a></li>
+      <li><a href="devis.php" target="_self" class="btn3"><span>Devis réservations</span></a></li>
+      <li><a href="tarifs.php" target="_self" class="btn4"><span>Nos tarifs</span></a></li>
+      <li><a href="contact.php" target="_self" class="btn5"><span>Contact</span></a></li>
+    </ul>
+  </div>
+  <div id="menu-langues">
+    <ul>
+      <li><a href="index.html" target="_self" class="btn1"><span>Français</span></a></li>
+      <li><a href="en/index.html" target="_self" class="btn2"><span>English</span></a></li>
+    </ul>
+  </div>
+</div>
+<img src="../images/bandeau.jpg" alt="Taxi Courchevel transfert - desserte de Courchevel et Stations de ski de Savoie" width="980" height="320" id="image-bandeau" />
+<div id="container">
+  <div id="container-int" class="clearfix">
+    <div id="contenu" class="clearfix">
+      <div class="int"> <!-- TemplateBeginEditable name="EditRegionContenu" -->
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis euismod ultricies. Vestibulum tempus lorem in sapien viverra eget ornare metus tincidunt. Nam id arcu eros. Suspendisse potenti.</h2>
+        <p>Massa eget mattis accumsan, metus arcu tempus est, lobortis fermentum elit elit quis lectus. Etiam viverra sem vitae mi sagittis egestas quis a mi. Duis accumsan ultrices vehicula. Sed auctor purus a augue convallis aliquet. Integer dapibus diam sit amet nisl iaculis commodo. Maecenas euismod lectus id felis sagittis in fringilla est adipiscing. Duis aliquet, tellus ac m attis volutpat, lectus nisl lobortis nibh, et venenatis diam purus elementum nibh. Nunc eget velit non massa faucibus hendrerit. Aliquam gravida lacus sed lectus vestibulum ultrices. Cras in blandit nibh. Sed accumsan felis et urna posuere laoreet. Vivamus pharetra ultricies sollicitudin. Aenean sit amet sapien mi. Mauris ac dolor ante. Vestibulu m a libero tellus, vel commodo elit. Vestibulum consequat sodales libero, id aliquet neque adipiscing ultrices. Curabitur sed vulputate erat.</p>
+        <!-- TemplateEndEditable --> </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="int">
+    <p>&copy;Taxi Courchevel Transfert<br />
+      Tel : +33(0)6-52-79-38-73<br />
+      Autoristation de stationnement  n&deg;19<br />
+      de la commune de Courchevel 73. </p>
+    <ul>
+      <li><a href="index.html" target="_self" class="accueil">Accueil</a></li>
+      <li><a href="prestations.html" target="_self" class="entreprise">Prestations</a></li>
+      <li><a href="devis.php" target="_self" class="acces">Devis  r&eacute;servations</a></li>
+      <li><a href="tarifs.php" target="_self" class="acces">Tarifs</a></li>
+      <li><a href="contact.php" target="_self" class="contact">Contact</a></li>
+    </ul>
+    <ul>
+      <li><a href="mentions-legales.html" target="_self" class="">Mentions l&eacute;gales</a></li>
+      <li><a href="http://www.creation-sitesinternet.com/" target="_self" class="">Création du site internet</a>
+      <li><a href="../liens-web.html" target="_blank">Liens web</a></li>
+      <li><a href="../en/index.html">English</a></li>
+    </ul>
+    <ul>
+      <li>Desserte Courchevel et Haute Tarentaise :</li>
+      <li>Taxi - Courchevel - Geneve - Lyon</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

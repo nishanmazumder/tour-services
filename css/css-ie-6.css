@@ -1,0 +1,38 @@
+/*---------- General ----------*/
+/*.sep {
+	background-image: url(../images/hr-fond-ie-6.jpg);
+}*/
+/*---------- Container ----------*/
+/*#container {
+	background-image: url(../images/container-fond-rep-ie6.jpg);
+	background-repeat: repeat-y;
+}*/
+/*---------- Contenu ----------*/
+/*#contenu {
+	margin-left: 20px;
+	background-image: none;
+	background-color: #d6e6f7;
+	border: 3px solid #FFFFFF;
+}
+#contenu .int {
+	background-image: none;	
+}
+#contenu-droite {
+	margin-left: 20px;
+	width: 400px;
+}
+#contenu-droite .int {
+	background-image: none;
+}*/
+/*---------- Menu-princ ----------*/
+/*#menu-princ ul li a {
+	background-image: url(../images/menu-fond-activ-ie-6.jpg);
+}*/
+/*---------- Footer ----------*/
+/*#footer {
+	background-image: url(../images/footer-fond.png);
+	padding-bottom: 0px;
+	height: 140px;
+	width: 970px;
+	border: 1px solid #DDD6C6;
+}*/
